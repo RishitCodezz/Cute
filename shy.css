@@ -1,0 +1,51 @@
+/* Reset some basic margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #f5c6ec, #ffe5ec);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    animation: floaty 4s ease-in-out infinite;
+}
+
+.forher img {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.forher h1 {
+    font-size: 2.5rem;
+    color: #ff6b81;
+    margin-bottom: 10px;
+}
+
+.forher p {
+    font-size: 1.2rem;
+    color: #6c5b7b;
+}
+
+/* Cute floating animation */
+@keyframes floaty {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

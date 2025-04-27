@@ -1,0 +1,60 @@
+.topheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #d59ce4 0%, #c16dd8 100%);
+    color: white;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive, 'Gill Sans', sans-serif;
+    padding: 15px 0;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffcdd2, #ff4d79, #c2185b);
+}
+
+.teddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff0f5;
+}
+
+.teddy-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.reveal-button {
+    background: linear-gradient(135deg, #ff6b9e, #ff357f);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.reveal-button:hover {
+    background: linear-gradient(135deg, #ff357f, #ff0066);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
